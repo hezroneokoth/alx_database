@@ -1,3 +1,4 @@
 -- creates a table called first_table in the current database
--- database name is passed as a mysql command arg
-mysql -u username -p -e "USE barding; CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256));"
+-- database name will be passed as a mysql command arg
+USE hbtn_test_db_0;
+CREATE TABLE IF NOT EXISTS first_table (id INT, name VARCHAR(256));
